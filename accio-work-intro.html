@@ -1269,27 +1269,28 @@ html[lang="zh-CN"] .kf-bul li, html[lang="zh-CN"] .plist li, html[lang="zh-CN"] 
   .psvc-c .plist li { font-size: 13px; }
 }
 
-/* ── Workflow tab: data-source bullet list ── */
+/* ── Workflow tab: data-source bullet list (light section) ── */
 .kf-bul {
-  list-style: none; display: grid; gap: 7px;
-  margin: 14px 0 4px; padding: 14px 16px;
-  background: rgba(0, 178, 255, .085);
-  border: 1px solid rgba(0, 178, 255, .26);
+  list-style: none; display: grid; gap: 8px;
+  margin: 14px 0 4px; padding: 15px 17px;
+  background: #F1F6FF;
+  border: 1px solid #CFE0FA;
+  border-left: 3px solid #0F5FDD;
   border-radius: 12px;
 }
 .kf-bul:empty { display: none; }
 .kf-bul li {
-  font-size: 12.6px; line-height: 1.62; color: #C3D4E6;
-  padding-left: 15px; position: relative; word-break: keep-all;
+  font-size: 12.8px; line-height: 1.66; color: #33415A;
+  padding-left: 16px; position: relative; word-break: keep-all;
 }
 .kf-bul li::before {
   content: ''; position: absolute; left: 0; top: 7px;
-  width: 5px; height: 5px; border-radius: 50%;
-  background: var(--cyan); box-shadow: 0 0 6px rgba(0,178,255,.8);
+  width: 6px; height: 6px; border-radius: 50%;
+  background: #0F5FDD;
 }
-.kf-bul li b { color: #FFFFFF; font-weight: 780; }
+.kf-bul li b { color: #063B9E; font-weight: 800; }
 @media (max-width: 640px) {
-  .kf-bul li { font-size: 11.8px; }
+  .kf-bul li { font-size: 12px; }
 }
 
   </style>
